@@ -2,8 +2,8 @@ import java.util.*;
 public class rafael01{
     public static void main(String[] args){
         Scanner teclado = new Scanner (System.in);
-        float [] idade = new float[6];
-        String [] aluno = new String[6];
+        float [] idade = new float[40];
+        String [] aluno = new String[40];
         int idadeTotalMenor, idadeTotalMaior, pessoasAcimaMedia, index;
         float soma, media, idadeMaisVelho, idadeMaisNovo;
         String nomeMaisVelho, nomeMaisNovo;
@@ -19,7 +19,7 @@ public class rafael01{
 
         System.out.println("1. Programa que cadastra o nome e a idade de 40 alunos.");
         
-        for (int i = 0; i <= 5; i++){
+        for (int i = 0; i <= 39; i++){
             System.out.print("Digite o nome do "+(i+1)+"° aluno: ");
             aluno [i] = teclado.nextLine();
             System.out.print("Digite a idade do "+(i+1)+"° aluno: ");
@@ -37,7 +37,7 @@ public class rafael01{
 
         }
 
-        media = soma / 6;
+        media = soma / (aluno.length);
 
         for (int i = 0; i<=(idade.length-1); i++){
             if(idade[i]>media){
