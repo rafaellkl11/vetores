@@ -1,3 +1,12 @@
+/*1. Uma turma possui 40 alunos. Faça um programa que leia o nome e a idade de todos os alunos e logo
+em seguida imprima:
+A. Total de alunos com idade menor ou igual a 16 anos
+B. Total de alunos com idade maior que 16 anos
+C. Média das idades
+D. Alunos com idade acima da média
+E. Nome e Idade do aluno mais novo
+F. Nome e Idade do aluno mais velho*/
+
 import java.util.*;
 public class rafael01{
     public static void main(String[] args){
